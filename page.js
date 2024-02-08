@@ -1,3 +1,3 @@
 $(window).on("load",function(){
-    $('.topic-grandchild').fadeIn(2000);
+    $('.topic-grandchild').fadeIn(1000);
 });
