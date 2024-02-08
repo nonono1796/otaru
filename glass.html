@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>映えるならここ！小樽に行ったら訪れたい場所</title>
+        <meta name="description" content="">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <!-- googleフォント      -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
+        <!-- カルーセル用 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css">
+        <link rel="stylesheet" href="page.css">
+    </head>
+    <body>
+        <header>
+            <div id="top">
+                <!-- カルーセル -->
+                <ul class="slider">
+                    <li><div class="img-height"><img src="img/glass1.jpg" alt="美術館"></div></li>
+                    <li><div class="img-height"><img src="img/glass2.jpg" alt="銀行"></div></li>
+                </ul>
+                <h1 id="title">小樽芸術村</h1>
+            </div>
+        </header>
+        <!-- ここから情報 -->
+        <main>
+            <!-- 大枠 -->
+            <div id="topic-patent">
+                <!-- ここで詳細 -->
+                <div class="topic-child">
+                    <p class="topic-grandchild">
+                        小樽芸術村はステンドグラス美術館、旧三井銀行小樽支店、似鳥美術館、西洋美術館の4つの建築からなります。<br>
+                        それぞれの建物は小樽が栄華を誇っていた20世紀前半に建てられていて、日本や世界の美術品が展示されています。<br>
+                        ステンドグラス美術館に飾られているステンドグラスは19世紀後半から20世紀初頭にかけてイギリスで制作され、実際に教会の窓を飾っていたステンドグラスです。<br>
+                        旧三井銀行小樽支店は重要文化財に指定されていています。重厚な石積みのルネサンス様式の外観と、吹き抜けに回廊がめぐり、天井の石膏造りが美しい内観が特徴です。<br>
+                        似鳥美術館には西洋美術だけでなく、日本の美術品も展示されています。また現代の美術品も展示されおり、様々な時代の芸術を楽しむ事ができます。<br>
+                        西洋美術館はその名の通り19世紀後半から20世紀初頭に欧米で制作されたステンドグラスや、ヨーロッパやアメリカを中心に、1920〜1930年代にかけて流行した装飾様式が用いられたガラス工芸品、家具などの西洋美術品を楽しめる美術館です。<br>
+                        <br>
+                        当サイトの力及ばす十分な写真が用意できなかったのですが、実物は本当に綺麗なため是非訪れてみてください。
+                </div>
+                <!-- 店舗情報、位置 -->
+                <div id="biginf">
+                <div class="inf1" >
+
+                   <table>
+                    <tr>
+                        <th>所在地</th>
+                        <td>小樽市色内1丁目3-1</td>
+                    </tr>
+                    <tr>
+                        <th>アクセス</th>
+                        <td>JR札幌駅から函館本線小樽行きに乗車し、JR小樽駅下車、駅前から<br>
+                            〈タクシー約3分〉<br>
+                            〈徒歩約10分〉<br>
+                            〈バス約3分［小樽駅前ターミナル④］「(9)天狗山ロープウェイ線」行きに乗車、
+                            「小樽芸術村」で下車〉</td>
+                    </tr>
+                    <tr>
+                        <th>営業時間</th>
+                        <td>[5～10月]　9:30〜17:00<br>
+                            [11～4月]　10:00～16:00<br>
+                            ※入場は閉館30分前まで</td>
+                    </tr>
+                    <tr>
+                        <th>関連情報</th>
+                        <td>公式サイトは<a href="https://www.nitorihd.co.jp/otaru-art-base/">こちら</a></td>
+                    </tr>
+                   </table>                    
+                </div>
+                <!-- googlemap -->
+                <div class="inf2">
+                    <iframe class="google"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.554223527946!2d140.9994096261529!3d43.19786357112736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0ae04d88b14b37%3A0x31fcb1b45d9ae829!2z5bCP5qi96Iq46KGT5p2R!5e0!3m2!1sja!2sjp!4v1707396234908!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            </div>
+                <div class="btn">
+                <a class="back-btn" href="index.html">TOPに戻る</a>
+                </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="page.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+	$('.slider')
+        // 最初のスライドに"add-animation"のclassを付ける(data-slick-index="0"が最初のスライドを指す)
+        .on("init", function () {
+        $('.slick-slide[data-slick-index="0"]').addClass("add-animation");
+        })
+        // スライダーの基本設定
+        .slick({
+		autoplay: true,
+		dots: true,
+        fade: true,
+        autoplaySpeed:5000,
+        arrows: false,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        pauseOnDotsHover: false,
+        speed: 2000,
+        accessibility :true,
+	})
+    .on({
+      // スライドが移動する前に発生するイベント
+      beforeChange: function (event, slick, currentSlide, nextSlide) {
+        // 表示されているスライドに"add-animation"のclassをつける
+        $(".slick-slide", this).eq(nextSlide).addClass("add-animation");
+        // あとで"add-animation"のclassを消すための"remove-animation"classを付ける
+        $(".slick-slide", this).eq(currentSlide).addClass("remove-animation");
+      },
+      // スライドが移動した後に発生するイベント
+      afterChange: function () {
+        // 表示していないスライドはアニメーションのclassを外す
+        $(".remove-animation", this).removeClass(
+          "remove-animation add-animation"
+        );
+      },
+    });
+</script>
+    </body>
+</html>
